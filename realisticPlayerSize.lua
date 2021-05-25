@@ -1,7 +1,7 @@
 -- Realistic Player Size for LS 19
 --
 -- Author: Jason06 / Glowins Mod-Schmiede
--- Version: 0.0.0.1
+-- Version: 0.0.0.2
 
 
 source(g_currentModDirectory.."tools/gmsDebug.lua")
@@ -32,7 +32,7 @@ end
 
 addConsoleCommand("rpsSize", "Glowins Mod Smithery: Set player's size", "setSize", RealisticPlayerSize)
 function RealisticPlayerSize:setSize(y)
-	if y ~= nil and tonumber(y) ~= nil then RealisticPlayerSize.size = y; end
+	if y ~= nil and tonumber(y) ~= nil then RealisticPlayerSize.size = tonumber(y); end
 end
 
 -- Register mod to event management
