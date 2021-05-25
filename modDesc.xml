@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="53">
+	<author>Jason06</author>
+	<version>0.0.0.1</version>
+    <title>
+		<en>Realistic Player Size</en>
+		<de>Realistische Spielergröße</de>
+    </title>
+    <description>
+		<en>
+<![CDATA[
+]]>
+		</en>	
+		<de>
+<![CDATA[
+]]>
+		</de>
+		<fr>
+<![CDATA[
+]]>
+	</fr>
+ 	</description>	
+    <multiplayer supported="true"/>
+	<iconFilename>icon.dds</iconFilename>
+	<extraSourceFiles>
+        <sourceFile filename="realisticPlayerSize.lua" />
+    </extraSourceFiles>
+	<l10n filenamePrefix="l10n/l10n" />
+</modDesc>

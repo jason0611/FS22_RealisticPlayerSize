@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+        <text name="input_XTB_EXECTAB" text="ExtTab: Activate/Execute" />
+        <text name="input_XTB_FASTTAB" text="ExtTab: Quick Tab into nearest vehicle" />
+        <text name="input_XTB_TOGGLEHELP" text="ExtTab: Show/Hide slot allocations" />
+        <text name="input_XTB_PREV" text="ExtTab: Show previous vehicle" />
+        <text name="input_XTB_NEXT" text="ExtTab: Show next vehicle" />
+        <text name="input_XTB_FAV1" text="ExtTab: Tab/Save into Slot 1" />
+        <text name="input_XTB_FAV2" text="ExtTab: Tab/Save into Slot 2" />
+        <text name="input_XTB_FAV3" text="ExtTab: Tab/Save into Slot 3" />
+        <text name="l10n_XTB_FAV1_FREE" text="Tab into Slot 1 (empty)" />
+        <text name="l10n_XTB_FAV2_FREE" text="Tab into Slot 2 (empty)" />
+        <text name="l10n_XTB_FAV3_FREE" text="Tab into Slot 3 (empty)" />
+        <text name="l10n_XTB_FAV_SET" text="Tab into " />
+        <text name="l10n_XTB_SAVED" text="Saved: Slot " />
+        <text name="l10n_XTB_VEHICLELIST_HEADLINE" text="Extended Tabbing: Vehicle list new initialized" />
+		<text name="l10n_XTB_VEHICLELIST_CHANGED" text="The list of ingame-vehicles has changed, therefore not all slots for direct tabbing could be restored.
+		
+		Assigned slots for direct tabbing:
+		
+		Slot 1: %s
+		Slot 2: %s
+		Slot 3: %s" />
+    </texts>
+</l10n>

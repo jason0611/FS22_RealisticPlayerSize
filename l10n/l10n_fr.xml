@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+        <text name="input_XTB_EXECTAB" text="ExtTab: Activer/Exécuter" />
+        <text name="input_XTB_FASTTAB" text="ExtTab: QUICKTAB - Activer/ExécuterSauter vers le véhicule le plus proche" />
+        <text name="input_XTB_TOGGLEHELP" text="ExtTab: Afficher/masquer les affectations de touches" />
+        <text name="input_XTB_PREV" text="ExtTab: Véhicule précédent" />
+        <text name="input_XTB_NEXT" text="ExtTab: Véhicule suivant" />
+        <text name="input_XTB_FAV1" text="ExtTab: Sauter à l'emplacement 1" />
+        <text name="input_XTB_FAV2" text="ExtTab: Sauter à l'emplacement 2" />
+        <text name="input_XTB_FAV3" text="ExtTab: Sauter à l'emplacement 3" />
+        <text name="l10n_XTB_FAV1_FREE" text="Sauter à l'emplacement 1 (vierge)" />
+        <text name="l10n_XTB_FAV2_FREE" text="Sauter à l'emplacement 2 (vierge)" />
+        <text name="l10n_XTB_FAV3_FREE" text="Sauter à l'emplacement 3 (vierge)" />
+        <text name="l10n_XTB_FAV_SET" text="Sauter à " />
+        <text name="l10n_XTB_SAVED" text="Sauvegardé : Slot " />
+        <text name="l10n_XTB_VEHICLELIST_HEADLINE" text="Extended Tabbing: Liste des véhicules réinitialisée" />
+		<text name="l10n_XTB_VEHICLELIST_CHANGED" text="La liste des véhicules du jeu a changé. Par conséquent, toutes les assignations sauvegardées n'ont pas pu être restaurées.
+		
+		Les affectations suivantes sont disponibles :
+		
+		Emplacement 1 : %s
+		Emplacement 2 : %s
+		Emplacement 3 : %s" />
+    </texts>
+</l10n>
+        
+        
+ 
