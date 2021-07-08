@@ -41,9 +41,3 @@ addModEventListener(RealisticPlayerSize);
 
 -- Get unique User-Id on joining
 Player.load = Utils.appendedFunction(Player.load, RealisticPlayerSize.loadPlayer)
-
--- make localizations available
-local i18nTable = getfenv(0).g_i18n
-for l18nId,l18nText in pairs(g_i18n.texts) do
-  i18nTable:setText(l18nId, l18nText)
-end
