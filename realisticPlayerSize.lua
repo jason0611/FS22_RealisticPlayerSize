@@ -1,8 +1,7 @@
 -- Realistic Player Size for LS 19
 --
 -- Author: Jason06 / Glowins Mod-Schmiede
--- Version: 0.1.0.0
-
+-- Version: 1.0.0.0
 
 source(g_currentModDirectory.."tools/gmsDebug.lua")
 GMSDebug:init(g_currentModName)
