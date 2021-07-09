@@ -22,4 +22,5 @@ Reduziert die Größe des Spielers von 2.02m auf 1.86m.
 	<iconFilename>icon.dds</iconFilename>
 	<extraSourceFiles>
         <sourceFile filename="realisticPlayerSize.lua" />
+    </extraSourceFiles>
 </modDesc>
