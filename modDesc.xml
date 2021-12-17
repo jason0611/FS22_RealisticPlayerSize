@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="62">
+<modDesc descVersion="63">
 	<author>Jason06</author>
 	<version>1.0.0.0</version>
     <title>
@@ -9,17 +9,17 @@
     <description>
 		<en>
 <![CDATA[
-Reduces player size from 2.02m to 1.86m, because all players seems to be Giants... ;-)
+Mini-Hack: Reduces player size from 2.02m to 1.86m, because all players seems to be Giants... ;-)
 ]]>
 		</en>	
 		<de>
 <![CDATA[
-Reduziert die Größe des Spielers von 2.02m auf 1.86m.
+Mini-Hack: Reduziert die Größe des Spielers von 2.02m auf 1.86m.
 ]]>
 		</de>
  	</description>	
     <multiplayer supported="true"/>
-	<iconFilename>icon.dds</iconFilename>
+	<iconFilename>modIcon.dds</iconFilename>
 	<extraSourceFiles>
         <sourceFile filename="realisticPlayerSize.lua" />
     </extraSourceFiles>
