@@ -1,4 +1,4 @@
--- Realistic Player Size for LS 19
+-- Realistic Player Size for LS 22
 --
 -- Author: Jason06 / Glowins Mod-Schmiede
 -- Version: 1.0.0.0
@@ -8,12 +8,12 @@ GMSDebug:init(g_currentModName)
 GMSDebug:enableConsoleCommands()
 
 RealisticPlayerSize = {}
-RealisticPlayerSize.size = 1.86
---RealisticPlayerSize.size = 2.12 -- game original value
+RealisticPlayerSize.size = 1.86 -- original game value: 2.12
 
 function RealisticPlayerSize:loadPlayer(xmlFilename, playerStyle, creatorConnection, isOwner)
 	if g_currentMission.player ~= nil and RealisticPlayerSize.size ~= nil then	
-		g_currentMission.player.camY = RealisticPlayerSize.size
+		g_currentMission.player.camY = 1.68 * RealisticPlayerSize.size / 2.12
+		--g_currentMission.player.camY = RealisticPlayerSize.size
 	end
 end
 
@@ -39,5 +39,5 @@ end
 -- Register mod to event management
 addModEventListener(RealisticPlayerSize);
 
--- Get unique User-Id on joining
+-- Get set player size when joining
 Player.load = Utils.appendedFunction(Player.load, RealisticPlayerSize.loadPlayer)
